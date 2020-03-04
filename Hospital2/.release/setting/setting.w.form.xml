@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window c73y673" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c73y673" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c73y673" class="c73y673"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcUFbU3q-iosstatusbar c73y673" xid="panel1" style="background-color:#F2F2F2;" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c73y673"> 
+    <div class="x-panel-top c73y673" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c73y673"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c73y673" xid="titleBar1" style="background-color:#60cfed;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;设置&quot;}" __cid="c73y673"> 
+        <div class="x-titlebar-left c73y673" xid="left1" __cid="c73y673"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c73y673" xid="button5" onclick="history.go(-1);" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-volumehigh&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c73y673"> 
+            <i xid="i5" class="linear linear-volumehigh c73y673" __cid="c73y673"/>  
+            <span xid="span11" __cid="c73y673" class="c73y673"/>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title c73y673" xid="title1" __cid="c73y673">设置</div>  
+        <div class="x-titlebar-right  c73y673" xid="right1" __cid="c73y673">
+          <div class="empty c73y673" __cid="c73y673"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c73y673" xid="cBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-dice&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c73y673"> 
+            <i xid="i4" class="linear linear-dice c73y673" __cid="c73y673"/>  
+            <span xid="span4" __cid="c73y673" class="c73y673"/>
+          </a>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content c73y673" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c73y673"> 
+      <div xid="div17" style="background-color:#D5D6CD;height:3%;" __cid="c73y673" class="c73y673"/>
+      <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pcJNzIVj-iosstatusbar c73y673" xid="panel3" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c73y673"> 
+        <ul xid="ul1" class="list-group c73y673" __cid="c73y673"> 
+          <li class="list-group-item c73y673" xid="li1" bind-click="openPageClick" pagename="./personalinformation.w" __cid="c73y673"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right c73y673" xid="button12" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c73y673"> 
+              <i xid="i18" class="icon-ios7-arrow-right text-muted c73y673" __cid="c73y673"/>  
+              <span xid="span17" __cid="c73y673" class="c73y673"/> 
+            </a>  
+            <span xid="span16" __cid="c73y673" class="c73y673">个人信息</span> 
+          </li>  
+          <li class="list-group-item c73y673" xid="li1" __cid="c73y673"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right c73y673" xid="button14" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c73y673"> 
+              <i xid="i27" class="icon-ios7-arrow-right text-muted c73y673" __cid="c73y673"/>  
+              <span xid="span20" __cid="c73y673" class="c73y673"/> 
+            </a>  
+            <span xid="span19" __cid="c73y673" class="c73y673">帮助</span> 
+          </li>  
+          <li class="list-group-item c73y673" xid="li1" __cid="c73y673"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right c73y673" xid="button16" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c73y673"> 
+              <i xid="i29" class="icon-ios7-arrow-right text-muted c73y673" __cid="c73y673"/>  
+              <span xid="span23" __cid="c73y673" class="c73y673"/> 
+            </a>  
+            <span xid="span22" __cid="c73y673" class="c73y673">反馈</span> 
+          </li>  
+          <li class="list-group-item c73y673" xid="li4" __cid="c73y673"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right c73y673" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;}" __cid="c73y673"> 
+              <i xid="i1" class="icon-ios7-arrow-right c73y673" __cid="c73y673"/>  
+              <span xid="span1" __cid="c73y673" class="c73y673"/>
+            </a>  
+            <span xid="span2" __cid="c73y673" class="c73y673">关于</span>
+          </li>
+        </ul>  
+        <style __cid="c73y673" class="c73y673">.x-panel.pcJNzIVj-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcJNzIVj-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcJNzIVj-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcJNzIVj-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcJNzIVj-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcJNzIVj-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcJNzIVj-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcJNzIVj-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcJNzIVj-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pce6rQbm-iosstatusbar c73y673" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c73y673"> 
+        <div class="list-group-item c73y673" xid="div1" align="center" __cid="c73y673"> 
+          <span xid="quit" __cid="c73y673" class="c73y673">退出登陆</span> 
+        </div>  
+        <style __cid="c73y673" class="c73y673">.x-panel.pce6rQbm-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pce6rQbm-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pce6rQbm-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pce6rQbm-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pce6rQbm-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pce6rQbm-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pce6rQbm-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pce6rQbm-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pce6rQbm-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+      </div> 
+    </div>  
+    <style __cid="c73y673" class="c73y673">.x-panel.pcUFbU3q-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcUFbU3q-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcUFbU3q-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcUFbU3q-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcUFbU3q-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcUFbU3q-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcUFbU3q-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcUFbU3q-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcUFbU3q-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

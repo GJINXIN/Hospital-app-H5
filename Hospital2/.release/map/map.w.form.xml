@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cAjyqYn" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cAjyqYn" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cAjyqYn" class="cAjyqYn"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcNVNZba-iosstatusbar cAjyqYn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cAjyqYn"> 
+    <div class="x-panel-top cAjyqYn" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAjyqYn">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cAjyqYn" xid="titleBar1" style="background-color:#60cfed;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;地址&quot;}" __cid="cAjyqYn"> 
+        <div class="x-titlebar-left cAjyqYn" xid="left1" __cid="cAjyqYn">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cAjyqYn" xid="button10" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;linear linear-volumehigh&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cAjyqYn"> 
+            <i xid="i11" class="linear linear-volumehigh cAjyqYn" __cid="cAjyqYn"/>  
+            <span xid="span15" __cid="cAjyqYn" class="cAjyqYn"/>
+          </a>
+        </div>  
+        <div class="x-titlebar-title cAjyqYn" xid="title1" __cid="cAjyqYn">地址</div>  
+        <div class="x-titlebar-right  cAjyqYn" xid="right1" __cid="cAjyqYn">
+          <div class="empty cAjyqYn" __cid="cAjyqYn"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cAjyqYn" xid="cBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-clouddownload&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cAjyqYn"> 
+            <i xid="i4" class="linear linear-clouddownload cAjyqYn" __cid="cAjyqYn"/>  
+            <span xid="span4" __cid="cAjyqYn" class="cAjyqYn"/>
+          </a>
+        </div> 
+      </div>
+    </div>  
+    <div class="x-panel-content cAjyqYn" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAjyqYn">
+      <img src="$model/UI2/Hospital2/img/hospitalm/01-2.jpg" alt="" xid="image1" __cid="cAjyqYn" class="cAjyqYn"/>
+    </div>  
+    <style __cid="cAjyqYn" class="cAjyqYn">.x-panel.pcNVNZba-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcNVNZba-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcNVNZba-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcNVNZba-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcNVNZba-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcNVNZba-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcNVNZba-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcNVNZba-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcNVNZba-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

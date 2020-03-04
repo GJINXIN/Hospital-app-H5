@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window ciEnYRb" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="ciEnYRb" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="ciEnYRb" class="ciEnYRb"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcZVrmya-iosstatusbar ciEnYRb" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ciEnYRb"> 
+    <div class="x-panel-top ciEnYRb" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciEnYRb">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar ciEnYRb" xid="titleBar1" style="background-color:#60cfed;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;健康小贴士&quot;}" __cid="ciEnYRb"> 
+        <div class="x-titlebar-left ciEnYRb" xid="left1" __cid="ciEnYRb"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ciEnYRb" xid="button10" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;linear linear-volumehigh&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="ciEnYRb"> 
+            <i xid="i11" class="linear linear-volumehigh ciEnYRb" __cid="ciEnYRb"/>  
+            <span xid="span15" __cid="ciEnYRb" class="ciEnYRb"/>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title ciEnYRb" xid="title1" __cid="ciEnYRb">健康小贴士</div>  
+        <div class="x-titlebar-right  ciEnYRb" xid="right1" __cid="ciEnYRb">
+          <div class="empty ciEnYRb" __cid="ciEnYRb"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ciEnYRb" xid="button9" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-dice&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="ciEnYRb"> 
+            <i xid="i10" class="linear linear-dice ciEnYRb" __cid="ciEnYRb"/>  
+            <span xid="span10" __cid="ciEnYRb" class="ciEnYRb"/>
+          </a>
+        </div> 
+      </div>
+    </div>  
+    <div class="x-panel-content  x-scroll-view ciEnYRb" xid="content1" _xid="C783AE5C90000001C9DB1AE010E0DBB0" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciEnYRb">
+      <div class="x-scroll ciEnYRb" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="ciEnYRb"> 
+        <div class="x-content-center x-pull-down container ciEnYRb" xid="div1" __cid="ciEnYRb"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down ciEnYRb" xid="i1" __cid="ciEnYRb"/>  
+          <span class="x-pull-down-label ciEnYRb" xid="span1" __cid="ciEnYRb">下拉刷新...</span>
+        </div>  
+        <div class="x-scroll-content ciEnYRb" xid="div2" __cid="ciEnYRb">
+          <li xid="li1" __cid="ciEnYRb" class="ciEnYRb">
+            <img src="$model/UI2/Hospital2/img/health/1 (4).png" alt="" xid="image1" style="width:100%;" __cid="ciEnYRb" class="ciEnYRb"/>  
+            <img src="$model/UI2/Hospital2/img/health/1 (3).png" alt="" xid="image2" style="width:100%;" __cid="ciEnYRb" class="ciEnYRb"/>  
+            <img src="$model/UI2/Hospital2/img/health/1 (2).png" alt="" xid="image3" style="width:100%;" __cid="ciEnYRb" class="ciEnYRb"/>  
+            <img src="$model/UI2/Hospital2/img/health/1 (1).png" alt="" xid="image4" style="width:100%;" __cid="ciEnYRb" class="ciEnYRb"/>
+          </li>
+        </div> 
+      </div>
+    </div>  
+    <style __cid="ciEnYRb" class="ciEnYRb">.x-panel.pcZVrmya-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcZVrmya-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcZVrmya-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcZVrmya-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcZVrmya-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcZVrmya-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcZVrmya-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcZVrmya-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcZVrmya-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cA3m2Mz" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cA3m2Mz" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cA3m2Mz" class="cA3m2Mz"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcrma2i2-iosstatusbar cA3m2Mz" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cA3m2Mz"> 
+    <div class="x-panel-top cA3m2Mz" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cA3m2Mz">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cA3m2Mz" xid="titleBar1" style="background-color:#60cfed;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;医生主页  &quot;}" __cid="cA3m2Mz"> 
+        <div class="x-titlebar-left cA3m2Mz" xid="left1" __cid="cA3m2Mz"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cA3m2Mz" xid="button5" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;linear linear-volumehigh&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cA3m2Mz"> 
+            <i xid="i5" class="linear linear-volumehigh cA3m2Mz" __cid="cA3m2Mz"/>  
+            <span xid="span11" __cid="cA3m2Mz" class="cA3m2Mz"/>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cA3m2Mz" xid="title1" __cid="cA3m2Mz">医生主页</div>  
+        <div class="x-titlebar-right  cA3m2Mz" xid="right1" __cid="cA3m2Mz">
+          <div class="empty cA3m2Mz" __cid="cA3m2Mz"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cA3m2Mz" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-car&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cA3m2Mz"> 
+            <i xid="i1" class="linear linear-car cA3m2Mz" __cid="cA3m2Mz"/>  
+            <span xid="span1" __cid="cA3m2Mz" class="cA3m2Mz"/>
+          </a>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cA3m2Mz" xid="cBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-dice&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cA3m2Mz"> 
+            <i xid="i4" class="linear linear-dice cA3m2Mz" __cid="cA3m2Mz"/>  
+            <span xid="span4" __cid="cA3m2Mz" class="cA3m2Mz"/>
+          </a>
+        </div> 
+      </div>
+    </div>  
+    <div class="x-panel-content  x-scroll-view cA3m2Mz" xid="content1" _xid="C78324F9C5300001A9A61BC01ED015C9" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cA3m2Mz">
+      <div class="x-scroll cA3m2Mz" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cA3m2Mz"> 
+        <div class="x-content-center x-pull-down container cA3m2Mz" xid="div1" __cid="cA3m2Mz"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cA3m2Mz" xid="i2" __cid="cA3m2Mz"/>  
+          <span class="x-pull-down-label cA3m2Mz" xid="span2" __cid="cA3m2Mz">下拉刷新...</span>
+        </div>  
+        <div class="x-scroll-content cA3m2Mz" xid="div2" __cid="cA3m2Mz">
+          <div xid="div4" __cid="cA3m2Mz" class="cA3m2Mz">
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3m2Mz" xid="row1" style="border-color:#FFFFFF #FFFFFF #FFFFFF #FFFFFF;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+              <div class="x-col center-block cA3m2Mz" xid="col3" __cid="cA3m2Mz">
+                <img alt="" xid="image2" align="middle" class="center-block cA3m2Mz" style="width:96px;height:93px;" src="$model/UI2/Hospital2/img/doctor/02-1.png" __cid="cA3m2Mz"/>
+                <span xid="span13" class="center-block cA3m2Mz" align="center" style="font-weight:bold;font-family:黑体;font-size:18px;" __cid="cA3m2Mz">金主 主治医生</span>
+                <span xid="span7" class="center-block cA3m2Mz" align="center" style="font-family:黑体;color:#808080;font-size:14px;" __cid="cA3m2Mz">沈阳军区总医院 皮肤科</span>
+                <span xid="span8" class="center-block cA3m2Mz" align="center" style="font-family:黑体;color:#808080;font-size:14px;" __cid="cA3m2Mz">常见皮肤病有牛皮藓、孢疹、酒渣鼻、浓孢疹等</span>
+              </div>
+            </div> 
+          </div>  
+          <div xid="div5" style="background-color:#D7DAAB;width:100%;height:8px;" __cid="cA3m2Mz" class="cA3m2Mz"/>  
+          <div xid="div6" style="height:121px;font-size:10px;" __cid="cA3m2Mz" class="cA3m2Mz">
+            <span xid="span10" class="center-block cA3m2Mz" align="center" style="font-family:黑体;color:#18E1E7;font-size:18px;" __cid="cA3m2Mz">医生简介</span>  
+            <p xid="p1" style="color:#969696;text-align:justify;font-size:10px;height:74px;" __cid="cA3m2Mz" class="cA3m2Mz">爱美的女士看过来啦，不仅提供全面、专业、贴心的皮肤治疗和狐狸服务，而且为患者营造了舒适和私密的诊疗环境，竭尽全力帮助患者展现由内而外的健康魅力。皮肌炎、系统性红斑狼疮，硬皮病等各种结缔组织病，各种轻、重药疹，大疱性疾病，红皮病、关节病型银屑病，各种皮炎、湿疹等严重、难治性皮肤病。</p>
+          </div>  
+          <div xid="div8" style="width:100%;height:8px;background-color:#D7DAAB;" __cid="cA3m2Mz" class="cA3m2Mz"/>
+          <div xid="div7" __cid="cA3m2Mz" class="cA3m2Mz">
+            <span xid="span6" class="center-block cA3m2Mz" align="center" style="font-family:黑体;color:#18E1E7;font-size:18px;" __cid="cA3m2Mz">患者评价（1253）</span>
+            <div component="$model/UI2/system/components/justep/list/list" class="x-list cA3m2Mz" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" __cid="cA3m2Mz"> 
+              <ul class="x-list-template hide cA3m2Mz" xid="listTemplateUl1" __cid="cA3m2Mz"> 
+                <li xid="li1" __cid="cA3m2Mz" class="cA3m2Mz"> 
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3m2Mz" xid="row21" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+                    <div class="x-col cA3m2Mz" xid="col41" __cid="cA3m2Mz"> 
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3m2Mz" xid="row22" style="margin-top:-8px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+                        <div class="x-col cA3m2Mz" xid="col40" __cid="cA3m2Mz"> 
+                          <span xid="span39" style="font-size:14px;" __cid="cA3m2Mz" class="cA3m2Mz">徐**欢</span>  
+                          <img src="" alt="" xid="image1" __cid="cA3m2Mz" class="cA3m2Mz"/>  
+                          <img src="" alt="" xid="image3" __cid="cA3m2Mz" class="cA3m2Mz"/>  
+                          <img src="" alt="" xid="image4" __cid="cA3m2Mz" class="cA3m2Mz"/>
+                        </div> 
+                      </div>  
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3m2Mz" xid="row24" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+                        <div class="x-col cA3m2Mz" xid="col42" __cid="cA3m2Mz"> 
+                          <span xid="span37" __cid="cA3m2Mz" class="cA3m2Mz">服务态度很好，很专业，非常满意！</span>
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div>  
+                  <div xid="div15" style="border-bottom:1px #ccc solid;height:3px;background-color:#C0C0C0;" __cid="cA3m2Mz" class="cA3m2Mz"/>  
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3m2Mz" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+                    <div class="x-col cA3m2Mz" xid="col5" __cid="cA3m2Mz"> 
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3m2Mz" xid="row3" style="margin-top:-8px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+                        <div class="x-col cA3m2Mz" xid="col6" __cid="cA3m2Mz"> 
+                          <span xid="span5" style="font-size:14px;" __cid="cA3m2Mz" class="cA3m2Mz">王**清</span>  
+                          <img src="" alt="" xid="image7" __cid="cA3m2Mz" class="cA3m2Mz"/>  
+                          <img src="" alt="" xid="image5" __cid="cA3m2Mz" class="cA3m2Mz"/>  
+                          <img src="" alt="" xid="image6" __cid="cA3m2Mz" class="cA3m2Mz"/>
+                        </div> 
+                      </div>  
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3m2Mz" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+                        <div class="x-col cA3m2Mz" xid="col4" __cid="cA3m2Mz"> 
+                          <span xid="span12" __cid="cA3m2Mz" class="cA3m2Mz">在家里看医生，不用到医院看医生了。</span>
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div>  
+                  <div xid="div9" style="border-bottom:1px #ccc solid;height:3px;background-color:#C0C0C0;" __cid="cA3m2Mz" class="cA3m2Mz"/>
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3m2Mz" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+                    <div class="x-col cA3m2Mz" xid="col8" __cid="cA3m2Mz"> 
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3m2Mz" xid="row6" style="margin-top:-8px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+                        <div class="x-col cA3m2Mz" xid="col9" __cid="cA3m2Mz"> 
+                          <span xid="span15" style="font-size:14px;" __cid="cA3m2Mz" class="cA3m2Mz">徐**欢</span>  
+                          <img src="" alt="" xid="image10" __cid="cA3m2Mz" class="cA3m2Mz"/>  
+                          <img src="" alt="" xid="image8" __cid="cA3m2Mz" class="cA3m2Mz"/>  
+                          <img src="" alt="" xid="image9" __cid="cA3m2Mz" class="cA3m2Mz"/>
+                        </div> 
+                      </div>  
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3m2Mz" xid="row8" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+                        <div class="x-col cA3m2Mz" xid="col7" __cid="cA3m2Mz"> 
+                          <span xid="span16" __cid="cA3m2Mz" class="cA3m2Mz">态度和蔼，很专业，服务也好，五颗星</span>
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                </li> 
+              </ul> 
+            </div> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cA3m2Mz" xid="div3" __cid="cA3m2Mz"> 
+          <span class="x-pull-up-label cA3m2Mz" xid="span3" __cid="cA3m2Mz">加载更多...</span>
+        </div> 
+      </div>
+    </div>  
+    <div class="x-panel-bottom cA3m2Mz" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cA3m2Mz">
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row x-row-center cA3m2Mz" xid="row2" style="height:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3m2Mz"> 
+        <div class="x-col x-col-67 cA3m2Mz" xid="col1" style="width:73px;" __cid="cA3m2Mz">
+          <span xid="span9" __cid="cA3m2Mz" class="cA3m2Mz">付费咨询：5.5</span>
+        </div>  
+        <div class="x-col cA3m2Mz" xid="col2" style="background-color:#60cfed;width:40%;" bind-click="openPageClick" pagename="./doctoryuyue.w" __cid="cA3m2Mz">
+          <span xid="span14" class="center-block cA3m2Mz" align="center" style="color:#FFFFFF;height:28px;font-size:12px;" __cid="cA3m2Mz">去提问，不满意全额退款</span>
+        </div> 
+      </div>
+    </div>
+    <style __cid="cA3m2Mz" class="cA3m2Mz">.x-panel.pcrma2i2-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcrma2i2-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcrma2i2-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcrma2i2-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcrma2i2-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcrma2i2-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcrma2i2-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcrma2i2-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcrma2i2-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>
